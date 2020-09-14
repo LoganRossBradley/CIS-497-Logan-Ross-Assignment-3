@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-    //private DisplayScore DisplayScoreScript;
+    private DisplayScore DisplayScoreScript;
 
     private void Start()
     {
@@ -13,7 +13,7 @@ public class DetectCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider Animal)
     {
-        DisplayScore.score++;
+        DisplayScoreScript.score++;
         Destroy(Animal.gameObject);
         Destroy(gameObject);
     }

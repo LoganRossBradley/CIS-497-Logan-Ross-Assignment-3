@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DisplayScore : MonoBehaviour
 {
     public Text textbox;
-    public static int score;
+    public int score;
 
     // Start is called before the first frame update
     void Start()
