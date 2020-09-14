@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//randomly spawns balls that fall from the sky
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions.Must;

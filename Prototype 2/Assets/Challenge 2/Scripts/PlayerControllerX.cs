@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//allows the player to send out dogs when pressing space
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

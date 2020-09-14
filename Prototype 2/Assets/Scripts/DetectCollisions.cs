@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Detects when food object collides with an animal
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

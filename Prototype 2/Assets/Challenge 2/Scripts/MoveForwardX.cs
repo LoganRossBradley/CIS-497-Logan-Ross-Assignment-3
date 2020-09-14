@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Moves the balls and animals forward at a constant rate
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

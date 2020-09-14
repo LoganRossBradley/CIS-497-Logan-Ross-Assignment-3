@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Detects when a dog collides with a ball
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;

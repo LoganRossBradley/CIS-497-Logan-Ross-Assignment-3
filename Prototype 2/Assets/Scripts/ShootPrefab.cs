@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Allows the player to shoot food
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Makes cloned objects move forward at a constant rate
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

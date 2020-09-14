@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//Logan Ross
+//Assignment 3
+//Destroys objects when they travel off screen
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
