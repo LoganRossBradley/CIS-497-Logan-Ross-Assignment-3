@@ -11,8 +11,12 @@ public class SpawnManager : MonoBehaviour
     private float rightBound = 14;
     private float spawnPositionZ = 20;
 
+    public HealthSystem HealthSystem;
+
     private void Start()
     {
+        HealthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
+
         //InvokeRepeating("spawnRandomAnimal", 2, 1.5f);
         StartCoroutine(SpawnRandomAnimalWithCoroutine());
     }
@@ -22,7 +26,7 @@ public class SpawnManager : MonoBehaviour
         //add 3 sec delay
         yield return new WaitForSeconds(3f);
 
-        while(true)
+        while(!HealthSystem.gameOver)
         {
             spawnRandomAnimal();
 
