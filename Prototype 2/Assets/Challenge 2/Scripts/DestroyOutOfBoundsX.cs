@@ -10,7 +10,7 @@ public class DestroyOutOfBoundsX : MonoBehaviour
     private float leftLimit = -22;
     private float bottomLimit = -1;
 
-    private HealthSystemX HealthSystemXScript;
+    private HealthSystem2 HealthSystemXScript;
 
     // Update is called once per frame
     void Update()

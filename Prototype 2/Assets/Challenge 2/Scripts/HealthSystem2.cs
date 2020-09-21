@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class HealthSystemX : MonoBehaviour
+public class HealthSystem2 : MonoBehaviour
 {
     public int health;
     public int maxHealth;
