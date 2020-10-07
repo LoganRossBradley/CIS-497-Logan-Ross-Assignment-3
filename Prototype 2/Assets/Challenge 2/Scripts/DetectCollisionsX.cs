@@ -9,12 +9,16 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class DetectCollisionsX : MonoBehaviour
 {
-    private DisplayScore DisplayScoreScript;
 
-
+    private bool triggered = false;
     private void OnTriggerEnter(Collider other)
     {
-        DisplayScoreScript.score++;
-        Destroy(gameObject);
+        if(other.CompareTag("Dog") && !triggered)
+        {
+            triggered = true;
+            TrackScore.score++;
+            Destroy(gameObject);
+
+        }
     }
 }

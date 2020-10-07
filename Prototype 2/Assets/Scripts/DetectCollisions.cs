@@ -8,17 +8,16 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-    private DisplayScore DisplayScoreScript;
-
     private void Start()
     {
         //DisplayScoreScript = GameObject.FindGameObjectWithTag("DisplayScoreScript").GetComponent<DisplayScore>();
     }
 
-    private void OnTriggerEnter(Collider Animal)
+    private void OnTriggerEnter(Collider other)
     {
-        DisplayScoreScript.score++;
-        Destroy(Animal.gameObject);
+        if(other.CompareTag("Animal"))
+        DisplayScore.score++;
+        Destroy(other.gameObject);
         Destroy(gameObject);
     }
 }

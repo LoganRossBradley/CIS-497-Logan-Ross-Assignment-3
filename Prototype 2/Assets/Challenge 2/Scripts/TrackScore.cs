@@ -11,7 +11,7 @@ public class TrackScore : MonoBehaviour
 {
     public Text textbox; 
 
-    public int score = 0;
+    public static int score = 0;
 
     private void Start()
     {
